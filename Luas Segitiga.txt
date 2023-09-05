@@ -1,0 +1,20 @@
+3.  Diketahui Sebuah segitiga memiliki ukuran seperti berikut:
+    Alas = 25
+    Tinggi = 30
+    Hitunglah luas dari segitiga tersebut.
+
+Pseudocode:
+
+alas = 25
+tinggi = 30
+luas = 0.5 * alas * tinggi
+print("Luas segitiga:", luas)
+
+algoritma:
+
+1. Mulai
+2. Inisialisasi alas dengan nilai 25
+3. Inisialisasi tinggi dengan nilai 30
+4. Menghitung luas dengan rumus (luas = 0.5 * alas * tinggi)
+5. Tampilkan hasil perhitungan luas segitiga 
+6. Selesai

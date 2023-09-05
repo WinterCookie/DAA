@@ -1,0 +1,23 @@
+6. Tentukan algoritma dan pseudocode volume kerucut
+    (diameter = 5, tinggi = 4)
+
+Pseduocode:
+
+Diameter = 5
+Tinggi = 4
+Jarijari = diameter / 2 
+Pi = 3.14159
+Volume = (1/3) * pi * jari_jari ** 2 * tinggi 
+Print(“Volume kerucut:”, volume)
+
+Algoritma:
+
+1. Mulai
+2. Inisialisasi Diameter dengan nilai 5
+3. Inisialisasi Tinggi dengan nilai 4
+4. Hitung jari-jari kerucut dengan rumus (jarijari = diameter / 2)
+5. Tetapkan nilai π (pi) sebagai 3.14159
+6. Hitung volume kerucut dengan rumus: volume = ((1/3) * pi * jari_jari ** 2 * tinggi)
+7.Tampilkan hasil volume kerucut
+8.Selesai
+

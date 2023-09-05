@@ -1,0 +1,33 @@
+1. Cari nilai KPK dari 3 dan 4
+
+Pseudocode:
+
+def gcd(a, b):
+while b != 0:
+remainder = a % b a = b
+b = remainder return a
+
+def lcm(a, b):
+return (a * b) // gcd(a, b)
+
+def main(): number1 = 3
+number2 = 4
+kpk = lcm(number1, number2)
+print(f"KPK dari {number1} dan {number2} adalah {kpk}") main()
+
+algoritma:
+
+1.	Mulai.
+2.	Tentukan dua bilangan bulat 'a' dan 'b'.
+3.	Definisikan sebuah fungsi bernama 'find_lcm' dengan parameter 'a' dan 'b':
+a.	Periksa apakah 'a' lebih besar dari 'b'. Jika iya, berikan nilai 'greater' sama dengan 'a'; jika tidak, berikan nilai 'greater' sama dengan 'b'.
+b.	Masuk ke dalam loop while:
+i.	Dalam loop while, periksa apakah 'greater' habis dibagi oleh 'a' dan 'b' (artinya 'greater' adalah kelipatan dari keduanya).
+ii.	Jika kondisi terpenuhi, maka 'greater' adalah KPK dari 'a' dan 'b'. Keluar dari loop dengan mengatur nilai 'lcm' sama dengan 'greater', lalu hentikan loop dengan pernyataan 'break'.
+iii.Jika kondisi belum terpenuhi, tambahkan 1 ke 'greater' untuk melanjutkan pencarian kelipatan berikutnya.
+4.	Setelah keluar dari loop, kembalikan nilai 'lcm' sebagai hasil dari fungsi 'find_lcm'. 
+5.  Tetapkan dua bilangan 'a' dan 'b' dengan nilai masing-masing (contohnya a = 3 dan b = 4).
+6.	Panggil fungsi 'find_lcm' dengan argumen 'a' dan 'b', dan simpan hasilnya dalam variabel 'kpk'.
+7.	Cetak pesan yang berisi nilai KPK dari 'a' dan 'b' dengan menggunakan pernyataan 'print'
+8.  selesai
+

@@ -1,0 +1,21 @@
+5. Tentukan algotima dan pseudocode volume tabung 
+    (jari-jari = 3, tinggi = 5)
+
+pseudocode:
+
+jarijari = 3
+tinggi = 5
+pi = 3.14159
+volume = pi * jarijari ** 2 * tinggi 
+print("Volume tabung:", volume)
+
+algoritma:
+
+1. Mulai
+2. inisialisasi jari-jari dengan nilai 3
+3. inisialisasi tinggi dengan nilai 5
+4. Tetapkan nilai π (pi) sebagai 3.14159
+5. Hitung volume tabung dengan menggunakan rumus (volume = π * jari_jari^2 * tinggi) 
+6. Tampilkan hasil volume tabung
+8. Selesai
+

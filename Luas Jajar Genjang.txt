@@ -1,0 +1,20 @@
+4. Tetapkan algoritma dan pseudocode luas jajar genjang
+    (panjang = 5, tinggi = 3)
+
+Pseudocode:
+
+panjang = 5
+tinggi = 3
+luas = panjang * tinggi
+print("Luas jajar genjang:", luas)
+
+algoritma:
+
+1. Mulai
+2. Inisialisasi panjang dengan nilai 5
+3. Inisialisasi tinggi dengan nilai 3
+4. Hitung luas dengan rumus (luas = panjang * tinggi)
+5. Tampilkan hasil luas jajar genjang 
+6. Selesai
+
+
